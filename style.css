@@ -1,0 +1,35 @@
+:root {
+	--main-bg-color: #1B1B1B;
+	--heading-bg-color: #343434;
+	--body-bg-color: #6f6f6f;
+}
+
+@font-face {
+	font-family: 'JetBrains Mono';
+	src: url('fonts/JetBrainsMono-Regular.woff2') format('woff2'),
+		/* WOFF2 */
+		url('fonts/JetBrainsMono-Regular.woff') format('woff');
+	/* WOFF */
+}
+
+body {
+	background-color: var(--main-bg-color);
+	color: white;
+	font-family: 'JetBrains Mono', monospace;
+}
+
+#heading {
+	background-color: var(--heading-bg-color);
+	text-align: center;
+	font-size: 30pt;
+	padding: 20px;
+}
+
+#subheading {
+	font-size: 15pt;
+	text-align: center;
+}
+
+#page {
+	margin: auto 10vh;
+}
